@@ -4,7 +4,7 @@ export function Header() {
     return (
         <Navbar fluid className="dark:bg-white">
             <Navbar.Brand href="https://flowbite-react.com">
-                <span className="self-center whitespace-nowrap text-xl font-semibold">Sipasipasa</span>
+                <span className="self-center whitespace-nowrap text-xl font-semibold">Nabillah N</span>
             </Navbar.Brand>
             <div className="flex md:order-2">
                 <Dropdown
