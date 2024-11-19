@@ -2,24 +2,27 @@ import { Card } from "flowbite-react";
 import picture from '../assets/img/Profile.png';
 
 
+
 export const Profile = () => {
     return (
+        
         <Card className="max-w-full dark:bg-white">
             <section id="profile" class="profile container mt-2 md:mt-5" >
                 <div class="flex flex-col-reverse md:flex-row items-center">
                     <div class="w-full md:w-2/3 order-2 md:order-1">
                         <h3 class="font-semibold text-3x1">Hi! aku</h3>
                         <h1 class="font-bold text-3xl nama">Nabillah Novitania</h1>
-                        <p>Aku adalah manusia</p>
+                        <p>Aku adalah seorang Programmer</p>
                         <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                         <option selected>Kontak </option>
-                        <option value="">No Hp: +621-234-5677</option>
-                        <option value="">Email: nabillahnovitania0@gmail.com</option>
-                        <option value="">Alamat: Jl.Raya Kopo</option>
-                        </select>
+                        <option value="">No Hp: +62 812-2122-7470</option>
+                        <option value="">Email: nabillahnovitania@gmail.com</option>
+                        <option value="">Alamat: Jl.Raya Kopo No.305 BOJONGLOA KIDUL, KOTA BANDUNG</option>
+                        </select> 
                          </div>
+                         
                     <div class="w-full md:w-1/3 order-1 md:order-2 flex justify-center md:justify-end">
-                        <img src={picture} alt="Potrait" class="max-w-full"/>
+                        <img  src={picture} alt="Potrait" class="max-w-full rounded-full"/>
                     </div>
                 </div>
             </section>
@@ -56,14 +59,9 @@ export const Profile = () => {
                 Editor
             </a>
         </li>
+        </ul>
+        </div>
         
-    </ul>
-    <div class="p-6 bg-gray-50 text-medium text-gray-500 dark:text-gray-400 dark:bg-gray-800 rounded-lg w-full">
-        <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2"></h3>
-    </div>
-</div>
- <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://flowbite.com/" class="hover:underline">™</a>. Sekian Tentang Saya.</span>
-
 </Card>
     
 

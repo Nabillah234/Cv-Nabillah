@@ -16,7 +16,7 @@ export function Header() {
                 >
                     <Dropdown.Header>
                         <span className="block text-sm">Nabillah</span>
-                        <span className="block truncate text-sm font-medium">nabillahnovitania0@gmail.com</span>
+                        <span className="block truncate text-sm font-medium">nabillahnovitania@gmail.com</span>
                     </Dropdown.Header>
                     <Dropdown.Item>Dashboard</Dropdown.Item>
                     <Dropdown.Item>Settings</Dropdown.Item>
@@ -26,16 +26,17 @@ export function Header() {
                 </Dropdown>
                 <Navbar.Toggle />
             </div>
-            <Navbar.Collapse>
+            <Navbar.Collapse> 
                 <Navbar.Link href="#" active>
                     Home
                 </Navbar.Link>
                 <Navbar.Link href="#">Youtube</Navbar.Link>
-                <Navbar.Link href="#">Instagram</Navbar.Link>
-                <Navbar.Link href="#">Linkendln</Navbar.Link>
-                <Navbar.Link href="#">Github</Navbar.Link>
+                <Navbar.Link href="https://www.instagram.com/nabillah__n/profilecard/?igsh=MTBhcmo2Mmljdnp3MA== ">Instagram</Navbar.Link>
+                <Navbar.Link href="https://www.linkedin.com/in/nabillah-novitania-22bba7338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ">Linkendln</Navbar.Link>
+                <Navbar.Link href="https://github.com/Nabillah234">Github</Navbar.Link>
             </Navbar.Collapse>
         </Navbar>
+        
         
     );
     
