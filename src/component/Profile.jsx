@@ -5,7 +5,7 @@ import picture from '../assets/img/Profile.png';
 
 export const Profile = () => {
     return (
-        
+  
         <Card className="max-w-full dark:bg-white">
             <section id="profile" class="profile container mt-2 md:mt-5" >
                 <div class="flex flex-col-reverse md:flex-row items-center">
@@ -13,12 +13,6 @@ export const Profile = () => {
                         <h3 class="font-semibold text-3x1">Hi! aku</h3>
                         <h1 class="font-bold text-3xl nama">Nabillah Novitania</h1>
                         <p>Aku adalah seorang Programmer</p>
-                        <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                        <option selected>Kontak </option>
-                        <option value="">No Hp: +62 812-2122-7470</option>
-                        <option value="">Email: nabillahnovitania@gmail.com</option>
-                        <option value="">Alamat: Jl.Raya Kopo No.305 BOJONGLOA KIDUL, KOTA BANDUNG</option>
-                        </select> 
                          </div>
                          
                     <div class="w-full md:w-1/3 order-1 md:order-2 flex justify-center md:justify-end">
@@ -40,6 +34,13 @@ export const Profile = () => {
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">HOBI</h5>
                 <p class="font-normal text-gray-700 dark:text-gray-400">Membaca buku dan Mendegarkan musik</p>
                 </a>
+
+                <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                        <option selected>Kontak </option>
+                        <option value="">No Hp: +62 812-2122-7470</option>
+                        <option value="">Email: nabillahnovitania@gmail.com</option>
+                        <option value="">Alamat: Jl.Raya Kopo No.305 BOJONGLOA KIDUL, KOTA BANDUNG</option>
+                        </select> 
                 
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">KEMAMPUAN</h5>
 
@@ -61,6 +62,8 @@ export const Profile = () => {
         </li>
         </ul>
         </div>
+        
+        
         
 </Card>
     
