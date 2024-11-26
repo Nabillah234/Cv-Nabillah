@@ -35,12 +35,12 @@ export const Profile = () => {
                 <p class="font-normal text-gray-700 dark:text-gray-400">Membaca buku dan Mendegarkan musik</p>
                 </a>
 
-                <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                        <option selected>Kontak </option>
-                        <option value="">No Hp: +62 812-2122-7470</option>
-                        <option value="">Email: nabillahnovitania@gmail.com</option>
-                        <option value="">Alamat: Jl.Raya Kopo No.305 BOJONGLOA KIDUL, KOTA BANDUNG</option>
-                        </select> 
+                <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">KONTAK</h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400">&#128383; +62 812-2122-7470</p>
+                <p class="font-normal text-gray-700 dark:text-gray-400">&#128232; nabillahnovitania@gmail.com</p>
+                <p class="font-normal text-gray-700 dark:text-gray-400">&#128205; Jl.Raya Kopo No.305 BOJONGLOA KIDUL, KOTA BANDUNG</p>
+                </a>
                 
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">KEMAMPUAN</h5>
 
